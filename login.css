@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.btn.rounded-circle {
+    padding: 7px 9px;
+    color: white;
+    background: #3F0088;
+}
+
+.home {
+    width: 40px;
+    margin-left: 10px;
+
+}
+
+.seoul {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-top: 100px;
+
+}
+
+.title {
+    color: white;
+
+}
+
+.icon {
+    width: 230px;
+    margin-top: 450px;
+}
+
+.signup {
+    font-weight: 700;
+    color: #7600FF;
+    margin-top: 70px;
+
+}
+
+.btnsignup {
+    background: transparent;
+    font-weight: 700;
+    width: 56%;
+    padding: 7px;
+    border-radius: 7px;
+    background-image: url(images/google.svg);
+    background-repeat: no-repeat;
+    background-position: 95px;
+    background-size: 20px;
+    margin-top: 30px;
+    border: solid #ADADAD;
+    border-width: 1px;
+    padding-left: 50px;
+}
+
+.orr {
+    width: 25rem;
+    margin-top: 50px;
+}
+
+/*------------------------------ media query ------------------------------------------*/
+
+
+@media only screen and (max-width: 600px) {
+
+    .icon {
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 0%;
+        visibility: hidden;
+        margin-bottom: -500px;
+
+    }
+
+    .container {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .seoul {
+        font-size: 30px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .btnsignup {
+        width: 70%;
+        background-position: 45px;
+        padding-left: 40px;
+    }
+
+    .orr {
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: -60px;
+    }
+
+    .form-row {
+        padding: 35px;
+
+    }
+
+
+
+}

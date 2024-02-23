@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register_page</title>
+    <link rel="stylesheet" href="registerpag.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+       <h2>Registration form</h2>
+       
+        <form onsubmit="return validation()" action="index.html">
+            <div class="infm">
+                <i class="fa fa-user lock"></i>
+                <input id="nm1" type="text" class="num2" placeholder="Enter Name">
+                <small id="p1"></small>
+            </div>
+
+            <div class="infm">
+                <i class="fa fa-envelope-open lock"></i>
+                <input id="em1" type="email" class="num2" placeholder="name@gmail.com">   
+                <small id="p2"></small>            
+            </div>
+            <div class="infm">
+                <i class="fa fa-lock lock"></i>
+                <input id="pas1" type="password" class="num2" placeholder="enter-password">
+                <small id="p3"></small>               
+            </div>
+
+            <div class="infm">
+                <i class="fa fa-lock lock"></i>
+                <input id="pas2" type="password" class="num2" placeholder="Confirm-password">
+                <small id="p4"></small>
+            </div>
+
+            <div class="infm">
+                <input id="checking" type="checkbox" class="checkbox1">
+                <label  class="lb">show password</label>               
+            </div>
+
+            <div class="infm">     
+                <input type="radio" class="radio_butoon" name="n1">
+                <label class="rd1">Male</label>
+
+                <input type="radio" class="radio_butoon" name="n1">
+                <label class="rd1">Female</label>
+            </div>
+
+            <div class="infm">
+                <select id="con1" class="country">
+                    
+                    <option>Select a country</option>
+                    <option>India</option>
+                    <option>England</option>
+                    <option>Pakistan</option>
+                    <option>China</option>
+                </select>
+                <p id="p5"></p>
+                <div class="arrow"></div>
+            </div>
+            <div class="infm">
+                <button onclick= "return validation()" class="button1" type="submit">Register Now</button>          
+            </div>
+        </form>
+        <script src="register_page.js"></script>
+    </div>
+</body>
+</html>
